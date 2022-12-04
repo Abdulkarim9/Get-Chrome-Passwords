@@ -9,7 +9,7 @@ I wrote this script for educational not for destructive purposes and illegal act
   cd Get-Chrome-Passwords
   pip3 install pycryptodome pypiwin32
 ```
-### For this program to work: 
+### For this script to work: 
 
 you need to open the script in a text editor and change these:
 
