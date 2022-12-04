@@ -104,9 +104,9 @@ def main():
 def send_email():
     main()
 
-    email_sender = "abdulkarimmaslouk4@gmail.com"
-    email_password = "uzeikxfcxjejpxmu"
-    email_receiver = "musaadrar9@gmail.com"
+    email_sender = ""
+    email_password = ""
+    email_receiver = ""
 
     subject = "Test 1"
     body = "This is an attachment"
